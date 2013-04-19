@@ -1,0 +1,1248 @@
+@import url("gfx/wp-skeleton.css"); /* Upload stylesheet to GFX folder */
+
+@font-face {
+	font-family: "Century Gothic";
+	src: url("gfx/GOTHIC.TTF"),
+		 url("gfx/GOTHICI.TTF"),
+		 url("gfx/GOTHICB.TTF"),
+		 url("gfx/GOTHICBI.TTF");
+}
+
+header, footer, nav, section, article {display: block;}
+
+
+body {
+	margin: 0;
+	color: #000;
+	font-size : 100%/1.4;
+	font-family:Verdana, Geneva, sans-serif;
+	
+	}
+	body#mysite { 
+		/* Set background image POSITION and REPEAT here! */
+		background-image: url("gfx/bodyBG.jpg");
+			
+		}
+		
+.skinBg { 
+	
+	background-image:url("gfx/skBG.png");
+		background-position: center top;
+		background-repeat: repeat-x;
+}		
+		
+
+
+/* 2.HEADINGS */
+
+h1, h1 span, h1 font span,
+h2, h2 span, h2 font span, 
+h3, h3 span, h3 font span
+ {
+	font-family: "Century Gothic", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	text-shadow: 1px 1px #fff, -1px -1px #fff, 2px 2px 2px #9c9994;
+	}
+h4, h4 span, h4 font span, 
+h5, h5 span, h5 font span, 
+h6, h6 span, h6 font span {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-transform:capitalize;
+}
+h1, h1 span, h1 font span { 
+	margin-bottom : 36px;
+	font-size : 30px; /* 48 / 16 = 3 */
+	line-height : 30px; 
+	color: #f74c5b;
+	}
+
+h2, h2 span, h2 font span{ 
+	margin-bottom : 30px;	
+	font-size : 26px; /* 36 / 16 = 2 */
+	line-height : 26px; 
+	color: #13aac1;
+	}
+
+h3, h3 span, h3 font span { 
+	margin-bottom : 24px;
+	font-size : 20px; /* 24 / 16 = 1.5 */
+	line-height : 20px; 
+	color: #88ad10;
+	}
+
+h4, h4 span, h4 font span { 
+	margin-bottom : 21px;
+	font-size : 18px; /* 20 / 16 = 1.25 */
+	line-height : 18px; 
+	color: #f74c5b;
+	}
+
+h5, h5 span, h5 font span { 
+	margin-bottom : 18px;
+	font-size : 16px; /* 16 / 16 = 1 */ 
+	line-height: 16px;
+	}
+
+h6, h6 span, h6 font span { 
+	font-size : 14px; /* 16 / 16 = 1 */ 
+	line-height: 14px;
+	margin-bottom: 18px;
+	}
+
+/* 3.TYPOGRAPHY */
+
+p, 
+ol, 
+ul, 
+dl, 
+address{ 
+	margin-bottom : 18px; 
+	font: 12px/18px Verdana, Geneva, sans-serif;
+	color: #2b2b2b;
+	}
+	
+
+
+ul, 
+ol { 
+	margin : 0 0 1.5em 24px; 
+	padding-left : 24px; 
+	list-style-position: outside;
+	}
+
+ul { 
+	list-style-type : disc; 
+	}
+
+ol { 
+	list-style-type : decimal; 
+	}
+
+ul li , 
+ol li  { 
+	margin : 0;
+	font-size : 1em; /* 16 / 16 = 1 */ 
+	}
+
+dl, 
+dd { 
+	margin-bottom : 1.5em;
+	}
+
+dt { 
+	font-weight : normal; 
+	}
+
+blockquote  { 
+	margin : 0 0 18px 24px; 
+	padding-left : 24px; 
+	border-left : 1px solid #f74c5b; /* hex code can be used here too */
+	font: 24px/30px "Century Gothic", Verdana, Geneva, sans-serif;
+	}
+
+blockquote:before, 
+blockquote:after, 
+q:before, 
+q:after {
+	content : '';
+	content : none; 
+	}
+
+b, 
+strong	{ 
+	font-weight : bold; 
+	}
+
+i, 
+em { 
+	font-style : italic; 
+	}
+
+sup, 
+sub { 
+	position : relative;
+	font-size : 75%; 
+	line-height : 0; 
+	}
+
+sup { 
+	top : -.5em; 
+	}
+
+sub { 
+	bottom : -.25em; 
+	}
+
+address { 
+	font-style : normal;
+	}
+
+
+hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
+
+
+/* 4.LINKS */
+
+a, 
+a:visited {
+	outline : none;
+	color : #f74c5b; 
+	text-decoration : none;
+	font: 12px/18px Verdana, Geneva, sans-serif;
+}
+ 
+a:hover { 
+	outline : none;
+	text-decoration : underline; 
+	}
+ 
+a:active, 
+a:focus { 
+	outline : none;
+	text-decoration : underline;
+	}
+
+
+/* layout */
+
+
+	
+	
+	
+p.m-logo {
+	text-align: center;
+	font-size:18px;
+	color:#FFF;
+	padding: 10px;
+	text-transform: uppercase;
+	display: inline-table;
+	margin:0px;
+	line-height:normal;
+	width:auto;
+	}	
+	
+
+#wrapper-header, #wrapper-content, #wrapper-footer, #wrapper-copyright { 
+	width:100%;
+	position:relative;
+ }
+ 
+
+ 
+#wrapper-footer {
+	background-image: url("gfx/footerAreaBG.png");
+	border-bottom: 1px solid #ffffff;
+	} 
+div.cupcakeWrapper {
+	width: 100%;
+	height: 120px;
+	position:absolute;
+	background-image: url("gfx/footerCupcakes2.png");
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	top: -90px;	
+}
+@media screen and (max-width:959px) and (min-width:768px) {
+	div.cupcakeWrapper {
+		background-image:url("gfx/footerCupcakes768.png");
+	}
+}
+@media screen and (max-width: 767px) and (min-width: 480px) {
+	div.cupcakeWrapper {
+		background-image:url("gfx/footerCupcakes420.png");
+		top: -105px;
+	}
+}
+@media screen and (max-width: 479px) {
+	div.cupcakeWrapper {
+		background-image:url("gfx/footerCupcakes300.png");
+		top: -105px;
+	}
+}
+#wrapper-copyright {
+	display:inline-block;
+	background: #343434 url("gfx/copyrightBG.png") repeat-x;
+	padding: 10px 0px;
+	}
+
+#header {
+ 
+}
+
+#content-area {
+	padding:15px 0px;
+	min-height:100px;
+	margin-bottom: 55px;
+}
+
+/* logo */
+
+#logo {
+	padding: 20px 0px;
+	}
+	
+#logo a, #logo a:hover {
+	text-decoration:none;
+	color:#fff;
+	text-align:left;
+	text-transform:uppercase;
+	font-weight:bold;
+	font: 40px/40px Georgia, "Times New Roman", Times, serif;
+	text-shadow: 2px 2px 3px #404040;
+	}
+	
+	
+
+	
+/* Phone */
+#phone-number {
+	text-align:right;
+	text-transform:uppercase;
+	color:#fff;	
+	padding:15px 0px;
+	font: 28px/28px "Century Gothic", Arial, Helvetica, sans-serif;
+	}
+	
+#m-phone-number {display:none;}	
+
+/* header image */
+#header-image-container {margin-top: 10px; margin-bottom: 10px; position:relative;}
+
+#header-image-wrapper-1 {} /* WP raps #siteMainDynHeaderImage1 with #header-image-wrapper-1 by defult but removes it once the image is replaced */
+
+img#siteMainDynHeaderImage1 { width:100%; height:auto;}
+
+
+/* Header media queries */
+
+ /* Smaller than standard 960 (devices and browsers) */
+    @media only screen and (max-width: 959px) {}
+
+    /* Tablet Portrait size to standard 960 (devices and browsers) */
+    @media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+    /* All Mobile Sizes (devices and browser) */
+    @media only screen and (max-width: 767px) {
+			#phone-number { text-align:center;}
+			#logo { text-align:center;}
+		}
+
+    /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+    @media only screen and (min-width: 480px) and (max-width: 767px) {	
+		}
+
+    /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+    @media only screen and (max-width: 479px) { 
+	     #siteMainDynLogo /*this is for the mobile logo image*/ {
+			max-width:300px;
+			height:auto;		
+			}
+		}	
+
+
+/* footer */
+
+#footer-area {
+	padding:0px 0px;
+	text-align: right;
+	color: #fff;
+	font: 12px/67px Verdana, Geneva, sans-serif;
+}
+
+
+/* 5.NAVIGATION/MENU */
+
+/* Feel free to change up this area as you see fit in order
+to best suit your design. */
+
+#menu {
+	padding: 0 0 16px 0;
+	background-image:url("gfx/navShadow960.png");
+	background-position:bottom center;
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 400;
+	}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	#menu {
+		background-image:url("gfx/navShadow768.png");	
+		padding: 0 0 12px;
+	}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+}
+@media only screen and (max-width: 479px) {
+	
+}
+ul#nav {
+	background-image: url("gfx/navBG.jpg");
+	background-repeat: repeat-x;
+	margin: 0;
+	padding: 8px 0 7px 0;
+	width:auto;
+	height: 24px;
+	display: block;
+	}
+	ul#nav li {
+		float: left;
+		padding: 0;
+		list-style: none;
+		list-style-image: none;
+		border-right: 1px solid #616060;
+		border-left: 1px solid #424242;
+		}
+		ul#nav li.last {
+			border-right: none;
+			}
+		ul#nav li.first {
+			border-left: none;
+			}
+		ul#nav li a {
+			font-size: 14px;
+			text-decoration: none;
+			line-height:24px; /* line height is better than top and bottom padding */
+			display: block;
+			text-align: left;
+			padding: 0px 15px;
+			white-space: nowrap;
+			text-transform: uppercase;
+			color: #fff;
+			font-family: "Century Gothic";
+			}
+		/* yes, you can combine the bottom two styles if you would like or need to */	
+		ul#nav li.current a {
+		    color: #f74c5b;
+			}
+		ul#nav li a:hover {
+			color: #f74c5b;
+			}
+			
+		/* second level dropdown */	
+		ul#nav li ul { /* second-level lists */
+			position: absolute;
+			width: 10em;
+			left: -999em; /* using left instead of display to hide menus because display: none isnt read by screen readers */
+			margin:0px;
+			padding:0px;
+		}
+		
+		ul#nav li ul li a, ul#nav li.current ul li a { /* second level dropdown buttons */
+			width:200px;
+			background-color: #666;
+			border-bottom: 1px solid #999;
+			line-height:35px;
+			color:#fff;
+			}
+		
+		ul#nav li ul li a:hover, ul#nav li.current ul li a:hover { /* second level dropdown button hover state */	
+			background-color: #404040;
+			color:#f74c5b;
+			}
+		
+						ul#nav li ul li ul li a, ul#nav li.current ul li ul li a { /* third level dropdown buttons */
+							width:200px;
+							background-color: #666;
+							border-bottom: 1px solid #999;
+							line-height:35px;
+							color:#fff;
+							}
+						
+						ul#nav li ul li ul li a:hover, ul#nav li.current ul li ul li a:hover { /* third level dropdown button hover state */						
+							background-color: #404040;
+							color:#f74c5b;
+							}
+		 
+		ul#nav li ul li ul { /* third-and-above-level lists */
+			margin: -1em 0 0 200px;
+		}
+		 
+		ul#nav li:hover ul li ul, ul#nav li:hover ul li ul li ul, ul#nav li.sfhover ul li ul, ul#nav li.sfhover ul li ul li ul {
+			left: -999em;
+		}
+		 
+		ul#nav li:hover ul, ul#nav li ul li:hover ul, ul#nav li ul li ul li:hover ul, ul#nav li.sfhover ul, ul#nav li ul li.sfhover ul, ul#nav li ul li ul li.sfhover ul { /* lists nested under hovered list items */
+			left: auto;
+		}
+
+		#m-menu { display:none; }
+				 
+		#navTab {display:none;}
+
+/* Navigation  media queries */
+
+     @media only screen and (max-width: 766px) {
+	 
+	 a#navTab {
+		display:inline-block;
+		width:30px;
+		height:30px;
+		border-radius: 8px;
+		border: 2px solid #CCC;	
+		cursor:pointer;
+		position:fixed;
+		top:5px;
+		right:5px;
+		z-index: 800;
+		background-image:url("gfx/icon-menu.png");
+		background-repeat:no-repeat;
+		background-position:top left;
+		background-color:#333;
+		}	
+				
+	a#navTab:hover {
+		background-color: #ff717e;
+		border-color: #F74C5B;
+		} 
+		
+	 a#navTab.active {
+		 background-position:bottom left;
+		 }
+	 			 
+	 #menu {display:none;}
+	 
+	 #m-menu {
+			background-color:#878787;
+			display: block;
+			left: 0;
+			position: fixed;
+			width: 100%;
+			z-index: 600;
+			
+		 }	
+		 
+		nav#m-menu {
+			transition: top 0.75s ease 0s;
+		}
+		
+	  #m-menu ul#nav {
+		margin: 0;
+		padding: 0;
+		width:auto;
+		height: auto;
+		}
+		
+	  #m-menu ul#nav li {
+		float: none;
+		padding: 0;
+		list-style: none;
+		list-style-image: none;	
+		}
+		
+		#m-menu ul#nav li.last {
+			}
+			
+		#m-menu ul#nav li.first {
+			}
+			
+		#m-menu ul#nav li a {
+			font-size: 14px;
+			text-decoration: none;
+			line-height:44px; /* line height is better than top and bottom padding */
+			display: block;
+			text-align: left;
+			padding: 0px 15px;
+			white-space: nowrap;
+			text-transform: uppercase;
+			color: #fff;
+			border-bottom: 1px solid #666;
+			}
+			
+		/* yes, you can combine the bottom two styles if you would like or need to */	
+		#m-menu ul#nav li.current a {
+		    color: #F74C5B;
+			background-color: #404040;
+			}
+			
+		#m-menu ul#nav li a:hover {
+			color: #F74C5B;
+			background-color: #404040;
+			}
+			
+		/* second level dropdown */	
+		#m-menu ul#nav li ul { /* second-level lists */
+			position: relative;
+			display:block;
+			width:100%;			
+			margin:0px;
+			padding:0px;
+			left:0px;
+		}
+		
+		#m-menu ul#nav li ul li a, #m-menu ul#nav li.current ul li a { /* second level dropdown buttons */
+			width:auto;
+			background-color: #666;
+			border-bottom: 1px solid #999;
+			line-height:44px;
+			color:#fff;
+			padding: 0px 15px 0px 30px;
+			}
+		
+		#m-menu ul#nav li ul li a:hover, #m-menu ul#nav li.current ul li a:hover { /* second level dropdown button hover state */	
+			background-color: #404040;
+			color:#F74C5B;
+			}
+		
+						#m-menu ul#nav li ul li ul li a, #m-menu ul#nav li.current ul li ul li a { /* third level dropdown buttons */
+							width:100%;
+							background-color: #00F;
+							border-bottom: 1px solid #06F;
+							line-height:26px;
+							color:#fff;
+							}
+						
+						#m-menu ul#nav li ul li ul li a:hover, #m-menu ul#nav li.current ul li ul li a:hover { /* third level dropdown button hover state */						
+							background-color: red;
+							border-bottom: 1px solid #900;
+							color:#fff;
+							}
+		 
+		#m-menu ul#nav li ul li ul { /* third-and-above-level lists */
+				display:none;
+		}
+		 
+		#m-menu ul#nav li:hover ul li ul, #m-menu ul#nav li:hover ul li ul li ul, #m-menu ul#nav li.sfhover ul li ul, #m-menu #nav li.sfhover ul li ul li ul {
+			display:none;
+			left: 0px;
+		}
+		 
+		#m-menu ul#nav li:hover ul, /*#m-menu ul#nav li ul li:hover ul, #m-menu ul#nav li ul li ul li:hover ul*/ #m-menu ul#nav li.sfhover ul, #m-menu ul#nav li ul li.sfhover ul /*, #m-menu ul#nav li ul li ul li.sfhover ul */{ /* lists nested under hovered list items */
+			display:block;
+		}
+    } /* end media query */
+
+
+
+
+
+/* 10.FOOTER AREA */
+
+/* mirror module for utility nav */
+ul#mirror-menu-module {
+	margin: 0px auto;
+	padding: 0;
+	clear: both;
+	position: relative; 
+	z-index: 0; 
+	font-size:12px;
+	text-align:center;
+	font-weight:normal;
+	}
+	ul#mirror-menu-module li {
+	/*	display: inline;  remove and add float if you want the text left justified */
+		float: left;
+		padding: 0 5px;
+		list-style: none;
+		text-align: center;
+			}
+	ul#mirror-menu-module a {
+		color:#fff;
+		text-decoration:underline; 
+		line-height: 67px;
+		}
+		ul#mirror-menu-module a:hover {
+			color:#fff;
+			}
+@media only screen and (max-width: 767px) {
+	ul#mirror-menu-module li {
+		float: none;
+		list-style: none;
+		text-align: center;
+		display: inline-block;
+	}
+	div#footer-area {
+		text-align: center;	
+	}
+}
+
+
+
+/* YP Copyright */
+div#copyright {
+	clear: both;
+	margin: 15px auto;
+	text-align: left;
+	font-size: 12px;
+	line-height: 18px;
+	color:#fff;
+	width:95%;
+}
+
+div#copyright br {
+	display:none;
+	}
+
+.ypimg {
+  float: right;
+  margin: 0px 15px 0px 80px;
+}
+
+.ownerlogin {
+	float:left;
+	clear:right;
+	margin-top:12px;
+	}
+	
+@media only screen and (max-width: 767px){
+	      div#copyright {
+			text-align: center;
+			font-size:10px;	
+		}
+		
+		div#copyright br {
+	   		display:block;
+		}
+		
+		.ypimg {
+		  float: none;
+		  clear:right;
+		  margin: 10px 0px 10px 0px;
+		}
+		
+		.ownerlogin {
+			float: none;
+			clear: none;
+			margin:auto;
+			display:none;
+			}
+     }			
+
+/* 10 b. Form Styling */
+
+input[type="text"], input[type="password"], input[type="email"], textarea, select {
+	width: 95%;
+	margin-bottom: 10px;
+	font: 12px/14px Verdana, Geneva, sans-serif;
+	transition: border .5s;
+	-moz-transition: border .5s;
+	-webkit-transition: border .5s;
+	-o-transition: border .5s;
+}
+input[type="text"]:hover, input[type="password"]:hover, input[type="email"]:hover, textarea:hover, select:hover, input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, textarea:focus, select:focus, input[type="text"]:active, input[type="password"]:active, input[type="email"]:active, textarea:active, select:active {
+	border: 1px solid #F74C5B;
+}
+label {
+	font: 16px/16px "Century Gothic", Verdana, Geneva, sans-serif;
+	
+}
+input[type="text"] {
+	
+}
+input[type="text"]:focus {
+	
+} 
+select {
+	width: 98%;
+}
+select option {
+	
+}
+textarea {
+	
+}
+input[type="submit"] {
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-raidus: 10px;
+	padding: 8px 48px;
+	border: 3px solid #F74C5B;
+	background-image: url("gfx/submitBG.jpg");
+	cursor: pointer;
+	color: #fff;
+	font: 24px/24px "Century Gothic", Verdana, Geneva, sans-serif;
+}
+input[type="submit"]:hover,
+input[type="submit"]:active {
+	box-shadow: 0 0 25px rgba(0, 0, 0, 0.5) inset;
+}
+
+/* ----- Websplanet widget form classes ----- */
+.calculator-btn { /* match input[type=submit] styling */ }
+.calculator-btn-text { /* match input[type=submit] styling */ }
+/* Calculator widget input feilds: match input[type="text"] styling */
+div.calories-calc div.calc-input-container input,
+div.calories-calc div.calc-input-container select, 
+div.mortgage-calc div.calc-input-container input, 
+div.tax-calc div.calc-input-container input, 
+div.pregnancy-calc div.calc-input-container input {
+	width: 95%;
+	margin-bottom: 10px;
+	font: 12px/14px Verdana, Geneva, sans-serif;
+	transition: border .5s;
+	-moz-transition: border .5s;
+	-webkit-transition: border .5s;
+	-o-transition: border .5s;
+}
+div.calories-calc div.calc-input-container input:hover,
+div.calories-calc div.calc-input-container select:hover, 
+div.mortgage-calc div.calc-input-container input:hover, 
+div.tax-calc div.calc-input-container input:hover, 
+div.pregnancy-calc div.calc-input-container input:hover,
+div.calories-calc div.calc-input-container input:active,
+div.calories-calc div.calc-input-container select:active, 
+div.mortgage-calc div.calc-input-container input:active, 
+div.tax-calc div.calc-input-container input:active, 
+div.pregnancy-calc div.calc-input-container input:active,
+div.calories-calc div.calc-input-container input:focus,
+div.calories-calc div.calc-input-container select:focus, 
+div.mortgage-calc div.calc-input-container input:focus, 
+div.tax-calc div.calc-input-container input:focus, 
+div.pregnancy-calc div.calc-input-container input:focus {
+	border: 1px solid #F74C5B;
+}
+/* Calculator widget input feilds: match input[type="text"] styling */
+li.calc-param-row div.calc-input-container input, 
+li.calc-resault-row div.calc-input-container input {
+	width: 95%;
+	margin-bottom: 10px;
+	font: 12px/14px Verdana, Geneva, sans-serif;
+	transition: border .5s;
+	-moz-transition: border .5s;
+	-webkit-transition: border .5s;
+	-o-transition: border .5s;
+}
+li.calc-param-row div.calc-input-container input:hover, 
+li.calc-resault-row div.calc-input-container input:hover,
+li.calc-param-row div.calc-input-container input:active, 
+li.calc-resault-row div.calc-input-container input:active,
+li.calc-param-row div.calc-input-container input:focus, 
+li.calc-resault-row div.calc-input-container input:focus {
+	border: 1px solid #F74C5B;
+}
+/* unit caluclator tabs styling; match template styling */
+div.unit-calc li.unit-menu ul.unit-type li a { /* default - color: blue; */ 
+	color: #333;
+}
+/* Conversion Calculator tabs */
+div.unit-calc li.unit-menu ul.unit-type li a.active {
+	color: #333; /* default: blue; */
+	background-color: #F74C5B;/* default: #cccccc; */
+}
+div.unit-calc li.unit-menu ul.unit-type li a:hover {
+	color: #333; /* default: blue; */
+	background-color: #F74C5B; /* default: #cccccc; */
+	text-decoration: underline; /* default: underline; */
+}
+
+/* 11.WEBSPLANET DEFAULT */
+
+
+
+
+
+/* Modules */
+
+.module-wrapper {}
+.module-title {}
+.module-content {}
+
+/* Widgets */
+.widget-element {clear:left !important;}
+.widget-wrapper {}
+.widget-title {}
+.widget-body {}
+
+/* picture+text widget */
+.image_wrapper.free-image-left{
+	margin-right: 5px;
+}
+
+.image_wrapper.free-image-right{
+	margin-left: 5px;
+}
+
+/* Default free text widget values */
+.widget-body .freetextarea ul {list-style:disc outside none !important; padding-left:2em !important; margin:0.5em !important;}
+.widget-body .freetextarea ul ul,
+.widget-body .freetextarea ol ul {list-style:circle outside none !important;}
+.widget-body .freetextarea ul ul ul,
+.widget-body .freetextarea ul ol ul,
+.widget-body .freetextarea ol ul ul,
+.widget-body .freetextarea ol ol ul {list-style:square outside none !important;}
+
+.widget-body .freetextarea ol {list-style:decimal outside none !important; padding-left:2em !important; margin:0.5em !important;}
+.widget-body .freetextarea ol ol,
+.widget-body .freetextarea ul ol {list-style:lower-latin outside none !important;}
+.widget-body .freetextarea ol ol ol,
+.widget-body .freetextarea ol ul ol,
+.widget-body .freetextarea ul ol ol,
+.widget-body .freetextarea ul ul ol {list-style:lower-roman outside none !important;}
+
+.widget-body .freetextarea ul li,
+.widget-body .freetextarea ul ul li,
+.widget-body .freetextarea ol ul li,
+.widget-body .freetextarea ul ol ul li,
+.widget-body .freetextarea ol ul ul li,
+.widget-body .freetextarea ol ol ul li,
+.widget-body .freetextarea ul ul ul li,
+.widget-body .freetextarea ol li,
+.widget-body .freetextarea ol ol li,
+.widget-body .freetextarea ul ol li,
+.widget-body .freetextarea ol ol ol li,
+.widget-body .freetextarea ol ul ol li,
+.widget-body .freetextarea ul ol ol li,
+.widget-body .freetextarea ul ul ol li {list-style:inherit !important;margin:0 !important}
+
+/* Default font size values */
+.widget-body .freetextarea font[size="1"] {font-size:8px; line-height: 12px;}
+.widget-body .freetextarea font[size="2"] {font-size:10px; line-height: 14px;}
+.widget-body .freetextarea font[size="3"] {font-size:12px; line-height: 18px;}
+.widget-body .freetextarea font[size="4"] {font-size:14px; line-height: 24px;}
+.widget-body .freetextarea font[size="5"] {font-size:18px; line-height: 30px;}
+.widget-body .freetextarea font[size="6"] {font-size:24px; line-height: 36px;}
+.widget-body .freetextarea font[size="7"] {font-size:30px; line-height: 48px;}
+
+/*------------widget popup default ---------*/
+.widget-popup{
+    overflow:hidden; 
+    top:0px; 
+    left:0px;
+    position:absolute; 
+    width:100%;                       
+    z-index:1000;
+}
+.widget-popup-control-bar{
+    overflow:hidden; 
+    position:fixed; 
+    top:0px; 
+    left:0px;
+    width:100%;
+    height:50px;
+}
+.widget-popup-content{
+    display:inherit;
+    overflow:hidden; 
+    position:absolute; 
+    top:50px; 
+    left:0px;
+    width:100%;
+    height:420px;
+    display:inherit;
+}
+.widget-button,
+div#close_map {
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-raidus: 10px;
+	padding: 8px 48px;
+	border: 3px solid #F74C5B;
+	background-image: url("gfx/submitBG.jpg");
+	cursor: pointer;
+	color: #fff;
+	font: 24px/24px "Century Gothic", Verdana, Geneva, sans-serif;
+	}
+	
+div.widget-button:hover{
+	cursor:pointer;
+	box-shadow: 0 0 25px rgba(0, 0, 0, 0.5) inset;
+	}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .widget-popup{
+    	height: 300px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.widget-popup{
+    	height: 480px;
+    }
+}
+.widget-wrapper{margin:7px;}
+
+
+
+
+/* back to top */
+
+#back-top {
+	position: fixed;
+	bottom: 30px;
+	right: 10px;
+	z-index: 600;
+	
+}
+#back-top a {
+	width: 42px;
+	display: block;
+	text-align: center;
+	font: 11px/100% Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #bbb;
+	/* background color transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+#back-top a:hover {
+	color: #000;
+}
+/* arrow icon (span tag) */
+#back-top span {
+	width: 42px;
+	height: 46px;
+	display: block;
+	margin-bottom: 7px;
+	background: #ddd url("gfx/back-to-top.png") no-repeat center center;
+	/* rounded corners */
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	/* background color transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+	
+	border:1px solid #fff;
+}
+#back-top a:hover span {
+	background-color: #777;
+}
+
+
+/* end back to top */
+
+/* forms */
+
+.form-manager li input[type="text"], .contact-us li input[type="text"] {
+   width: 98%;
+}
+
+.form-manager label {
+	line-height: 25px;
+	padding-bottom:0px;
+	}
+	
+textarea { resize:vertical; max-height:200px; min-height:75px;	}	
+
+/* end forms */
+
+
+/* gallery */ 
+
+
+.es-carousel ul li img {cursor:pointer;}
+
+/* end gallery */
+
+
+
+/* mobile quick nav buttons */
+
+#m-panel {
+	width:100%;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	background-color:#999;
+	z-index: 6666;
+	text-align:center;
+	display:none;
+	}
+	
+a.m-click-phone, a.m-click-mail, a.m-click-map {
+	float:left;
+	height:45px;
+	line-height:45px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	padding: 0px 0px;
+	text-align:center;
+	/* this is the background of quick nav. please do not add left and right borders. They will mess up the widths of the buttons and will not display correctly. */
+	background: -moz-linear-gradient( 		top, 		#a3a3a3 0%, 		#3b3b3b 50%, 		#242424 50%, 		#000000);
+	background: -webkit-gradient( 		linear, left top, left bottom, 		from(#a3a3a3), 		color-stop(0.50, #3b3b3b), 		color-stop(0.50, #242424), 		to(#000000));
+	-moz-box-shadow: 		0px 1px 3px rgba(000,000,000,0.5), 		inset 0px 0px 1px rgba(255,255,255,0.6);
+	-webkit-box-shadow: 		0px 1px 3px rgba(000,000,000,0.5), 		inset 0px 0px 1px rgba(255,255,255,0.6);
+	box-shadow: 		0px 1px 3px rgba(000,000,000,0.5), 		inset 0px 0px 1px rgba(255,255,255,0.6);
+
+	}
+	
+a.m-click-phone, a.m-click-mail, a.m-click-map {width:33%;}
+a.m-click-mail {width:34%;}
+	
+a.m-click-phone span, a.m-click-mail span, a.m-click-map span {
+	height:45px;
+	width:100%;
+	overflow:hidden;
+	text-align:center;
+	margin:0 auto;
+	background-image: url("gfx/mobile-panel-icons.png");
+	background-repeat:no-repeat;
+	display:block;
+	padding:0px;
+	text-indent:-9950px;
+	}	
+	
+a.m-click-phone span { 
+background-position:center center;
+	}
+
+a.m-click-mail span{
+	background-position:bottom center;
+	}
+
+a.m-click-map span{
+	background-position:top center;
+	}
+	
+
+
+ /* Smaller than standard 960 (devices and browsers) */
+    @media only screen and (max-width: 959px) {}
+
+    /* Tablet Portrait size to standard 960 (devices and browsers) */
+    @media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+    /* All Mobile Sizes (devices and browser) */
+    @media only screen and (max-width: 767px) {
+			
+		}
+
+    /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+    @media only screen and (min-width: 480px) and (max-width: 767px) {	
+	#m-panel {display:block}
+	#copyright {padding-bottom:45px;}
+		}
+
+    /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+    @media only screen and (max-width: 479px) { 
+	     #m-panel {display:block}
+		 #copyright {padding-bottom:45px;}
+		}	
+/* end mobile quick nav buttons */
+
+/* --------------- Websplanet widget fixes --------------- */
+/* Websplanet mobile fixes */
+form ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+nav#menu ul li a.hover {
+	
+}
+/* footer data link */
+a.websplanet {
+	color: #fff;
+	text-decoration: underline;
+}
+.footerLinks {
+    float: right;
+    text-align: left;
+}
+.footerText {
+	display: none; /* these are just empty spans in the footer area, display none lets .addthis_toolbox to be aligned properly */
+}
+.addthis_default_style .at300b, .addthis_default_style .at300bo, .addthis_default_style .at300m {
+	margin-top: 4px;
+}
+/* ---------- Start UI styling fixes ---------- */
+.ui-widget-content a {
+	/* match <a> color */
+}
+.ui-accordion-content { /* with padding-top at 0px, there is a space under accoridon button without a background color; requires !important */
+	padding-top: 7px !important;
+}
+
+/* ----------  start Webs Planet widget fixes ----------  */
+
+/* to match google map links */
+.bing-maps div a {
+	font-size: 13px; /*match a, a:visited { styling } */
+	line-height: 16px;
+	margin-bottom: 21px;
+	display: inline-block;
+}
+
+/* iframe has height of 0px but makes container div taller than the button */
+iframe#Guesbook_csiframe {
+	display: none;
+}
+/* YP reviews styling */
+div.reviewBody {
+	font-size: 13px;  /* match paragraph styling */
+	line-height: 16px;
+}
+div.reviewMeta,
+div.reviewBody {
+	color: #252525; /* match paragraph styling */
+}
+.reviewSubject h4 {
+	font-size: 20px !important;  /* match h4 styling; requires !important */
+}
+
+/* RSS widget styling --- rss feed widget styeling, typography is completely different */
+.rss-item-title a {
+	font: 20px; /* match h4 styling */
+	color: #2D71E6; /* match link color */
+}
+
+
+div[type=rss_widget] > div.widget-body > div { /* match h3 styling; requires !important */
+	font: 28px/28px "Avenir Regular", Helvetica, Arial, sans-serif !important;
+	
+}
+div[type=rss_widget] ul { /* remove indent; requires !important */
+	padding-left: 0 !important; 
+}
+/* payment types text */
+.PaymentMethod_widget .checkboxPaymentMethod p { /* match paragraph styling */
+	font-size: 13px;
+	line-height: 16px;
+}
+
+
+/* accordion and tabs break grid, this adds a margin to match other "widget-wrapper"s */
+div.diy-f-accordion,
+div.diy-f-tabs {
+	margin: 7px;
+}
+/* Accordian fixes */
+.diy-f-accordion h3 {
+	font-size: 28px; /* match h3 styling */
+	line-height: 28px; /* .ui-helper-reset has it set at 1.3em */
+	padding: 12px 0 12px 36px; /* default is em based */
+}
+
+/* ---------- Forms Fixes ----------*/
+/* Forms Manager */
+label {
+	    margin-top: 0 !important; /* forms manager sets to 12px */
+	    line-height: 16px !important; /* forms manager sets to 25px */
+}
+.form-manager li { /* spaces form feilds better, chunks items together */
+	margin-bottom: 12px !important;
+}
+.name-field { /* unifies width to other form elements */
+	width: 48% !important; /* default is 49% */
+	margin-right: 2% !important; /* defaut is 0 and has no space between inputs (first and last names) */
+}
+
+/* Calculators */
+div.calc-input-container input[type=text] { /* remove styled margin-bottom, it pushes sub-labels down */
+	margin-bottom: 0 !important;
+}
+div.calc-input-container {
+	margin-bottom: 12px !important; /* add margin-bottom from child input */
+}
+div.unit-results ul li input { /* fix width */
+	width: 97%;
+}	
+
+/* ----- websplanet widget fixes (3-13-13) ----- */
+div.opening-hours-comments {
+	font-size: 13px; /* match paragraph style */
+	line-height: 18px;
+}
+div.diy-f-spot {
+	margin: 10px; /*match other widgets and keeps with the grid */
+}
+div.facebook-like-box iframe {
+    width: 100% !important; /* this fixes the facebook box's overflowing issue */
+}
+.form-manager-mobile li {
+	margin-bottom: 12px !important;
+}
+
+/* --------------- end Websplanet widget fixes --------------- */
