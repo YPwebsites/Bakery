@@ -1,11 +1,11 @@
-@import url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/wp-skeleton.css"); /* Upload stylesheet to GFX folder */
+@import url("http://unpub.stage-sites.yp.com/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/wp-skeleton.css"); /* Upload stylesheet to GFX folder */
 
 @font-face {
 	font-family: "Century Gothic";
-	src: url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/GOTHIC.TTF"),
-		 url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/GOTHICI.TTF"),
-		 url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/GOTHICB.TTF"),
-		 url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/GOTHICBI.TTF");
+	src: url("http://unpub.stage-sites.yp.com/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/GOTHIC.TTF"),
+		 url("http://unpub.stage-sites.yp.com/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/GOTHICI.TTF"),
+		 url("http://unpub.stage-sites.yp.com/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/GOTHICB.TTF"),
+		 url("http://unpub.stage-sites.yp.com/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/GOTHICBI.TTF");
 }
 
 header, footer, nav, section, article {display: block;}
@@ -20,13 +20,13 @@ body {
 	}
 	body { 
 		/* Set background image POSITION and REPEAT here! */
-		background-image: url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/bodyBG.jpg");
+		background-image: url("http://unpub.stage-sites.yp.com/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/bodyBG.jpg");
 			
 		}
 		
 .skinBg { 
 	
-	background-image:url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/skBG.png");
+	background-image:url("http://unpub.stage-sites.yp.com/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/skBG.png");
 		background-position: center top;
 		background-repeat: repeat-x;
 }		
@@ -282,7 +282,7 @@ p.m-logo {
 
  
 #wrapper-footer {
-/*	background-image: url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/footerAreaBG.png"); */
+/*	background-image: url("http://unpub.stage-sites.yp.com/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/footerAreaBG.png"); */
 	background: #ff717e; /* Old browsers */
 /* IE9 SVG, needs conditional override of 'filter' to 'none' */
 background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmNzE3ZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmNzRjNWIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
@@ -301,31 +301,31 @@ div.cupcakeWrapper {
 	width: 100%;
 	height: 120px;
 	position:absolute;
-	background-image: url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/footerCupcakes2.png");
+	background-image: url("http://unpub.stage-sites.yp.com/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/footerCupcakes2.png");
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	top: -90px;	
 }
 @media screen and (max-width:959px) and (min-width:768px) {
 	div.cupcakeWrapper {
-		background-image:url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/footerCupcakes768.png");
+		background-image:url("http://unpub.stage-sites.yp.com/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/footerCupcakes768.png");
 	}
 }
 @media screen and (max-width: 767px) and (min-width: 480px) {
 	div.cupcakeWrapper {
-		background-image:url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/footerCupcakes420.png");
+		background-image:url("http://unpub.stage-sites.yp.com/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/footerCupcakes420.png");
 		top: -105px;
 	}
 }
 @media screen and (max-width: 479px) {
 	div.cupcakeWrapper {
-		background-image:url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/footerCupcakes300.png");
+		background-image:url("http://unpub.stage-sites.yp.com/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/footerCupcakes300.png");
 		top: -105px;
 	}
 }
 #wrapper-copyright {
 	display:inline-block;
-	background: #343434 url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/copyrightBG.png") repeat-x;
+	background: #343434 url("http://unpub.stage-sites.yp.com/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/copyrightBG.png") repeat-x;
 	padding: 10px 0px;
 	}
 
@@ -434,7 +434,7 @@ to best suit your design. */
 
 #menu {
 	padding: 0 0 16px 0;
-	background-image:url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/navShadow960.png");
+	background-image:url("http://unpub.stage-sites.yp.com/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/navShadow960.png");
 	background-position:bottom center;
 	background-repeat: no-repeat;
 	position: relative;
@@ -442,7 +442,7 @@ to best suit your design. */
 	}
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 	#menu {
-		background-image:url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/navShadow768.png");	
+		background-image:url("http://unpub.stage-sites.yp.com/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/navShadow768.png");	
 		padding: 0 0 12px;
 	}
 }
@@ -453,7 +453,7 @@ to best suit your design. */
 	
 }
 ul#nav {
-	background-image: url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/navBG.jpg");
+	background-image: url("http://unpub.stage-sites.yp.com/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/navBG.jpg");
 	background-repeat: repeat-x;
 	margin: 0;
 	padding: 8px 0 7px 0;
@@ -561,7 +561,7 @@ ul#nav {
 		top:5px;
 		right:5px;
 		z-index: 800;
-		background-image:url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/icon-menu.png");
+		background-image:url("http://unpub.stage-sites.yp.com/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/icon-menu.png");
 		background-repeat:no-repeat;
 		background-position:top left;
 		background-color:#333;
@@ -857,7 +857,7 @@ input[type="reset"] {
 	-webkit-border-raidus: 10px;
 	padding: 0px 30px;
 	border: 3px solid #F74C5B;
-	background-image: url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/submitBG.jpg");
+	background-image: url("http://unpub.stage-sites.yp.com/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/submitBG.jpg");
 	cursor: pointer;
 	color: #fff;
 	font: 18px/18px "Century Gothic", Verdana, Geneva, sans-serif;
@@ -1041,7 +1041,7 @@ div#close_map {
 	-webkit-border-raidus: 10px;
 	padding: 8px 0px;
 	border: 3px solid #F74C5B;
-	background-image: url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/submitBG.jpg");
+	background-image: url("http://unpub.stage-sites.yp.com/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/submitBG.jpg");
 	cursor: pointer;
 	color: #fff;
 	font: 24px/24px "Century Gothic", Verdana, Geneva, sans-serif;
@@ -1099,7 +1099,7 @@ div.widget-button:hover{
 	height: 46px;
 	display: block;
 	margin-bottom: 7px;
-	background: #ddd url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/back-to-top.png") no-repeat center center;
+	background: #ddd url("http://unpub.stage-sites.yp.com/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/back-to-top.png") no-repeat center center;
 	/* rounded corners */
 	-webkit-border-radius: 8px;
 	-moz-border-radius: 8px;
@@ -1183,7 +1183,7 @@ a.m-click-phone span, a.m-click-mail span, a.m-click-map span {
 	overflow:hidden;
 	text-align:center;
 	margin:0 auto;
-	background-image: url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/mobile-panel-icons.png");
+	background-image: url("http://unpub.stage-sites.yp.com/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/mobile-panel-icons.png");
 	background-repeat:no-repeat;
 	display:block;
 	padding:0px;
@@ -1392,14 +1392,14 @@ div.module-body ul {
 	-webkit-border-raidus: 10px;
 	padding: 8px 0px;
 	border: 3px solid #F74C5B;
-	background-image: url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/submitBG.jpg");
+	background-image: url("http://unpub.stage-sites.yp.com/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/submitBG.jpg");
 	cursor: pointer;
 	color: #fff;
 	font: 24px/24px "Century Gothic", Verdana, Geneva, sans-serif;
 	text-align: center;
 }
 #FAQ_category_list li a:hover {
-	background-image: url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/submitBG.jpg");
+	background-image: url("http://unpub.stage-sites.yp.com/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/submitBG.jpg");
 	box-shadow: 0 0 25px rgba(0, 0, 0, 0.5) inset;	
 }
 ul#FAQ_category_list span {
@@ -1427,14 +1427,14 @@ div.jobs-apply a {
 	-webkit-border-raidus: 10px;
 	padding: 8px 48px;
 	border: 3px solid #F74C5B;
-	background-image: url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/submitBG.jpg");
+	background-image: url("http://unpub.stage-sites.yp.com/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/submitBG.jpg");
 	cursor: pointer;
 	color: #fff;
 	font: 12px/12px "Century Gothic", Verdana, Geneva, sans-serif;
 	text-align: center;
 }
 div.jobs-apply a:hover {
-	background-image: url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/submitBG.jpg");
+	background-image: url("http://unpub.stage-sites.yp.com/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/submitBG.jpg");
 	box-shadow: 0 0 25px rgba(0, 0, 0, 0.5) inset;	
 }
 h4.jobs-title,h4.jobs-title:hover {
@@ -1483,7 +1483,7 @@ hr {
 	display: block;
 	width: 100%;
 /*	margin-bottom: 0px !important; websplanet adds <br> after hr... */
-	background-image: url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/hrBG.png");
+	background-image: url("http://unpub.stage-sites.yp.com/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/hrBG.png");
 	background-position: left center;
 	background-repeat: repeat-x;
 	height: 8px !important;
