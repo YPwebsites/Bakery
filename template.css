@@ -1,11 +1,11 @@
-@import url("gfx/wp-skeleton.css"); /* Upload stylesheet to GFX folder */
+@import url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/wp-skeleton.css"); /* Upload stylesheet to GFX folder */
 
 @font-face {
 	font-family: "Century Gothic";
-	src: url("gfx/GOTHIC.TTF"),
-		 url("gfx/GOTHICI.TTF"),
-		 url("gfx/GOTHICB.TTF"),
-		 url("gfx/GOTHICBI.TTF");
+	src: url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/GOTHIC.TTF"),
+		 url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/GOTHICI.TTF"),
+		 url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/GOTHICB.TTF"),
+		 url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/GOTHICBI.TTF");
 }
 
 header, footer, nav, section, article {display: block;}
@@ -18,15 +18,15 @@ body {
 	font-family:Verdana, Geneva, sans-serif;
 	
 	}
-	body#mysite { 
+	body { 
 		/* Set background image POSITION and REPEAT here! */
-		background-image: url("gfx/bodyBG.jpg");
+		background-image: url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/bodyBG.jpg");
 			
 		}
 		
 .skinBg { 
 	
-	background-image:url("gfx/skBG.png");
+	background-image:url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/skBG.png");
 		background-position: center top;
 		background-repeat: repeat-x;
 }		
@@ -35,58 +35,60 @@ body {
 
 /* 2.HEADINGS */
 
-h1, h1 span, h1 font span,
-h2, h2 span, h2 font span, 
-h3, h3 span, h3 font span
+h1, h1 span, h1 font span, h1 a, a h1,
+h2, h2 span, h2 font span, h2 a, a h2,
+h3, h3 span, h3 font span, h3 a, a h3
  {
 	font-family: "Century Gothic", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
-	text-shadow: 1px 1px #fff, -1px -1px #fff, 2px 2px 2px #9c9994;
+	text-shadow:/* 1px 1px #fff, -1px -1px #fff,*/ 2px 2px 2px #9c9994; 
 	}
-h4, h4 span, h4 font span, 
-h5, h5 span, h5 font span, 
-h6, h6 span, h6 font span {
-	font-family: Georgia, "Times New Roman", Times, serif;
+h4, h4 span, h4 font span, h4 a, a h4,
+h5, h5 span, h5 font span, h5 a, a h5,
+h6, h6 span, h6 font span, h5 a, a h5 {
+	font-family: Verdana, Geneva, sans-serif;
 	text-transform:capitalize;
+	font-weight: normal;
 }
-h1, h1 span, h1 font span { 
-	margin-bottom : 36px;
+h1, h1 span, h1 font span, h1 a, a h1 { 
+	margin-bottom : 12px;
 	font-size : 30px; /* 48 / 16 = 3 */
 	line-height : 30px; 
 	color: #f74c5b;
 	}
 
-h2, h2 span, h2 font span{ 
-	margin-bottom : 30px;	
+h2, h2 span, h2 font span, h2 a, a h2 { 
+	margin-bottom : 12px;	
 	font-size : 26px; /* 36 / 16 = 2 */
 	line-height : 26px; 
 	color: #13aac1;
 	}
 
-h3, h3 span, h3 font span { 
-	margin-bottom : 24px;
-	font-size : 20px; /* 24 / 16 = 1.5 */
-	line-height : 20px; 
-	color: #88ad10;
+h3, h3 span, h3 font span, h3 a, a h3 { 
+	margin-bottom :12px;
+	font-size : 21px; /* 24 / 16 = 1.5 */
+	line-height : 21px; 
+/*	color: #88ad10; */
+	color: #f74c5b;
 	}
 
-h4, h4 span, h4 font span { 
-	margin-bottom : 21px;
+h4, h4 span, h4 font span, h4 a, a h4 { 
+	margin-bottom : 12px;
 	font-size : 18px; /* 20 / 16 = 1.25 */
 	line-height : 18px; 
 	color: #f74c5b;
 	}
 
-h5, h5 span, h5 font span { 
-	margin-bottom : 18px;
+h5, h5 span, h5 font span, h5 a, a h5 { 
+	margin-bottom : 12px;
 	font-size : 16px; /* 16 / 16 = 1 */ 
 	line-height: 16px;
 	}
 
-h6, h6 span, h6 font span { 
+h6, h6 span, h6 font span, h6 a, a h6 { 
 	font-size : 14px; /* 16 / 16 = 1 */ 
 	line-height: 14px;
-	margin-bottom: 18px;
+	margin-bottom: 12px;
 	}
 
 /* 3.TYPOGRAPHY */
@@ -95,12 +97,62 @@ p,
 ol, 
 ul, 
 dl, 
-address{ 
+address { 
 	margin-bottom : 18px; 
 	font: 12px/18px Verdana, Geneva, sans-serif;
 	color: #2b2b2b;
 	}
+div {
+	font: 12px/18px Verdana, Geneva, sans-serif;
 	
+}
+
+/*
+Light Color Scheme: enter dark font color here;
+Dark Color Scheme: enter light font color here;
+*/
+div.reviewItem,
+div.freetextarea, 
+label, 
+div.rss, 
+div#ReviewsWidget, 
+p.figcaption, 
+div.opening-hours-widget-wrapper, 
+div#opening-hours-comments, 
+div#containingBlock, 
+div.calc-input-container, 
+div.calc-input-container span {
+	 color: #2b2b2b;
+}
+
+/* Controller Widgets (Accordions/Tabs/Spotlight Widgets) */
+div.ui-widget-content div.freetextarea,
+div.ui-widget-content div.reviewItem, 
+div.ui-widget-content div.freetextarea, 
+div.ui-widget-content label, 
+div.ui-widget-content div.rss, 
+div.ui-widget-content div#ReviewsWidget, 
+div.ui-widget-content p.figcaption, 
+div.ui-widget-content div.opening-hours-widget-wrapper, 
+div.ui-widget-content div#opening-hours-comments, 
+div.ui-widget-content div#containingBlock, 
+div.ui-widget-content div.calc-input-container, 
+div.ui-widget-content div.calc-input-container span,
+div.diy-f-spot div.freetextarea,
+div.diy-f-spot div.reviewItem, 
+div.diy-f-spot div.freetextarea, 
+div.diy-f-spot label, 
+div.diy-f-spot div.rss, 
+div.diy-f-spot div#ReviewsWidget, 
+div.diy-f-spot p.figcaption, 
+div.diy-f-spot div.opening-hours-widget-wrapper, 
+div.diy-f-spot div#opening-hours-comments, 
+div.diy-f-spot div#containingBlock, 
+div.diy-f-spot div.calc-input-container, 
+div.diy-f-spot div.calc-input-container span {
+	color: #2b2b2b;
+}
+
 
 
 ul, 
@@ -230,38 +282,50 @@ p.m-logo {
 
  
 #wrapper-footer {
-	background-image: url("gfx/footerAreaBG.png");
+/*	background-image: url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/footerAreaBG.png"); */
+	background: #ff717e; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmNzE3ZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmNzRjNWIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #ff717e 0%, #f74c5b 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff717e), color-stop(100%,#f74c5b)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ff717e 0%,#f74c5b 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ff717e 0%,#f74c5b 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ff717e 0%,#f74c5b 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ff717e 0%,#f74c5b 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff717e', endColorstr='#f74c5b',GradientType=0 ); /* IE6-8 */
+
+
 	border-bottom: 1px solid #ffffff;
 	} 
 div.cupcakeWrapper {
 	width: 100%;
 	height: 120px;
 	position:absolute;
-	background-image: url("gfx/footerCupcakes2.png");
+	background-image: url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/footerCupcakes2.png");
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	top: -90px;	
 }
 @media screen and (max-width:959px) and (min-width:768px) {
 	div.cupcakeWrapper {
-		background-image:url("gfx/footerCupcakes768.png");
+		background-image:url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/footerCupcakes768.png");
 	}
 }
 @media screen and (max-width: 767px) and (min-width: 480px) {
 	div.cupcakeWrapper {
-		background-image:url("gfx/footerCupcakes420.png");
+		background-image:url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/footerCupcakes420.png");
 		top: -105px;
 	}
 }
 @media screen and (max-width: 479px) {
 	div.cupcakeWrapper {
-		background-image:url("gfx/footerCupcakes300.png");
+		background-image:url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/footerCupcakes300.png");
 		top: -105px;
 	}
 }
 #wrapper-copyright {
 	display:inline-block;
-	background: #343434 url("gfx/copyrightBG.png") repeat-x;
+	background: #343434 url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/copyrightBG.png") repeat-x;
 	padding: 10px 0px;
 	}
 
@@ -269,44 +333,52 @@ div.cupcakeWrapper {
  
 }
 
-#content-area {
-	padding:15px 0px;
+#content {
+	padding:0px 0px 15px;
 	min-height:100px;
-	margin-bottom: 55px;
+	margin-bottom:65px;
 }
 
 /* logo */
 
 #logo {
-	padding: 20px 0px;
+	padding: 10px 0px;
 	}
 	
-#logo a, #logo a:hover {
+#logo a, #logo a:hover, #logo div {
 	text-decoration:none;
 	color:#fff;
 	text-align:left;
 	text-transform:uppercase;
 	font-weight:bold;
-	font: 40px/40px Georgia, "Times New Roman", Times, serif;
+	font: 48px/48px "Century Gothic", Helvetica, Arial, sans-serif;
 	text-shadow: 2px 2px 3px #404040;
+	-webkit-text-shadow: 2px 2px 3px #404040;
 	}
-	
+#logo div.slogan {
+	font: 24px/24px "Century Gothic", Arial, Helvetica, sans-serif;
+	color:#fff;	
+	text-shadow: 2px 2px 3px #404040;
+	-webkit-text-shadow: 2px 2px 3px #404040;
+}	
 	
 
 	
 /* Phone */
 #phone-number {
+	padding:25px 0px 10px;
+	}
+#phone-number, #phone-number div {
 	text-align:right;
 	text-transform:uppercase;
 	color:#fff;	
-	padding:15px 0px;
 	font: 28px/28px "Century Gothic", Arial, Helvetica, sans-serif;
-	}
+}
 	
 #m-phone-number {display:none;}	
 
 /* header image */
-#header-image-container {margin-top: 10px; margin-bottom: 10px; position:relative;}
+#header-image-container {margin-top: 0px; margin-bottom: 5px; position:relative;}
 
 #header-image-wrapper-1 {} /* WP raps #siteMainDynHeaderImage1 with #header-image-wrapper-1 by defult but removes it once the image is replaced */
 
@@ -323,8 +395,11 @@ img#siteMainDynHeaderImage1 { width:100%; height:auto;}
 
     /* All Mobile Sizes (devices and browser) */
     @media only screen and (max-width: 767px) {
-			#phone-number { text-align:center;}
+			#phone-number div { text-align:center;}
 			#logo { text-align:center;}
+			#logo a, #logo a:hover, #logo div {
+				text-align: center;
+			}
 		}
 
     /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -347,6 +422,8 @@ img#siteMainDynHeaderImage1 { width:100%; height:auto;}
 	text-align: right;
 	color: #fff;
 	font: 12px/67px Verdana, Geneva, sans-serif;
+        margin-top:25px;
+       margin-bottom:20px;
 }
 
 
@@ -357,15 +434,15 @@ to best suit your design. */
 
 #menu {
 	padding: 0 0 16px 0;
-	background-image:url("gfx/navShadow960.png");
+	background-image:url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/navShadow960.png");
 	background-position:bottom center;
 	background-repeat: no-repeat;
 	position: relative;
-	z-index: 400;
+	z-index: 5;
 	}
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 	#menu {
-		background-image:url("gfx/navShadow768.png");	
+		background-image:url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/navShadow768.png");	
 		padding: 0 0 12px;
 	}
 }
@@ -376,7 +453,7 @@ to best suit your design. */
 	
 }
 ul#nav {
-	background-image: url("gfx/navBG.jpg");
+	background-image: url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/navBG.jpg");
 	background-repeat: repeat-x;
 	margin: 0;
 	padding: 8px 0 7px 0;
@@ -484,7 +561,7 @@ ul#nav {
 		top:5px;
 		right:5px;
 		z-index: 800;
-		background-image:url("gfx/icon-menu.png");
+		background-image:url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/icon-menu.png");
 		background-repeat:no-repeat;
 		background-position:top left;
 		background-color:#333;
@@ -516,6 +593,7 @@ ul#nav {
 		}
 		
 	  #m-menu ul#nav {
+	  	background-image: none;
 		margin: 0;
 		padding: 0;
 		width:auto;
@@ -619,7 +697,7 @@ ul#nav {
 
 /* mirror module for utility nav */
 ul#mirror-menu-module {
-	margin: 0px auto;
+	margin: 19px auto 10px;
 	padding: 0;
 	clear: both;
 	position: relative; 
@@ -627,6 +705,7 @@ ul#mirror-menu-module {
 	font-size:12px;
 	text-align:center;
 	font-weight:normal;
+	display: inline-block;
 	}
 	ul#mirror-menu-module li {
 	/*	display: inline;  remove and add float if you want the text left justified */
@@ -638,7 +717,7 @@ ul#mirror-menu-module {
 	ul#mirror-menu-module a {
 		color:#fff;
 		text-decoration:underline; 
-		line-height: 67px;
+		line-height: 30px;
 		}
 		ul#mirror-menu-module a:hover {
 			color:#fff;
@@ -650,8 +729,12 @@ ul#mirror-menu-module {
 		text-align: center;
 		display: inline-block;
 	}
-	div#footer-area {
-		text-align: center;	
+	ul#mirror-menu-module {
+		display: block;
+	}
+	div#footer-area span {
+		text-align: center;
+		width: 100%;	
 	}
 }
 
@@ -709,16 +792,40 @@ div#copyright br {
 
 /* 10 b. Form Styling */
 
-input[type="text"], input[type="password"], input[type="email"], textarea, select {
+input[type="text"], 
+input[type="password"], 
+input[type="email"], 
+input[type="file"], 
+textarea, 
+select {
 	width: 95%;
 	margin-bottom: 10px;
 	font: 12px/14px Verdana, Geneva, sans-serif;
+	border:1px solid #cccccc;
 	transition: border .5s;
+	padding: 6px 4px;
 	-moz-transition: border .5s;
 	-webkit-transition: border .5s;
 	-o-transition: border .5s;
 }
-input[type="text"]:hover, input[type="password"]:hover, input[type="email"]:hover, textarea:hover, select:hover, input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, textarea:focus, select:focus, input[type="text"]:active, input[type="password"]:active, input[type="email"]:active, textarea:active, select:active {
+input[type="text"]:hover, 
+input[type="password"]:hover, 
+input[type="email"]:hover, 
+textarea:hover, 
+select:hover, 
+input[type="text"]:focus, 
+input[type="password"]:focus, 
+input[type="email"]:focus, 
+textarea:focus, 
+select:focus, 
+input[type="text"]:active, 
+input[type="password"]:active, 
+input[type="email"]:active,
+input[type="file"]:hover, 
+input[type="file"]:focus, 
+input[type="file"]:active, 
+textarea:active, 
+select:active {
 	border: 1px solid #F74C5B;
 }
 label {
@@ -731,6 +838,9 @@ input[type="text"] {
 input[type="text"]:focus {
 	
 } 
+input[type="file"] {
+
+}
 select {
 	width: 98%;
 }
@@ -740,19 +850,24 @@ select option {
 textarea {
 	
 }
-input[type="submit"] {
+input[type="submit"],
+input[type="reset"] {
 	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-raidus: 10px;
-	padding: 8px 48px;
+	padding: 0px 30px;
 	border: 3px solid #F74C5B;
-	background-image: url("gfx/submitBG.jpg");
+	background-image: url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/submitBG.jpg");
 	cursor: pointer;
 	color: #fff;
-	font: 24px/24px "Century Gothic", Verdana, Geneva, sans-serif;
+	font: 18px/18px "Century Gothic", Verdana, Geneva, sans-serif;
 }
 input[type="submit"]:hover,
-input[type="submit"]:active {
+input[type="submit"]:active,
+input[type="submit"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:active,
+input[type="reset"]:focus {
 	box-shadow: 0 0 25px rgba(0, 0, 0, 0.5) inset;
 }
 
@@ -838,7 +953,7 @@ div.unit-calc li.unit-menu ul.unit-type li a:hover {
 
 /* Widgets */
 .widget-element {clear:left !important;}
-.widget-wrapper {}
+.widget-wrapper {margin:10px 15px !important}
 .widget-title {}
 .widget-body {}
 
@@ -924,12 +1039,13 @@ div#close_map {
 	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-raidus: 10px;
-	padding: 8px 48px;
+	padding: 8px 0px;
 	border: 3px solid #F74C5B;
-	background-image: url("gfx/submitBG.jpg");
+	background-image: url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/submitBG.jpg");
 	cursor: pointer;
 	color: #fff;
 	font: 24px/24px "Century Gothic", Verdana, Geneva, sans-serif;
+	height: auto;
 	}
 	
 div.widget-button:hover{
@@ -983,7 +1099,7 @@ div.widget-button:hover{
 	height: 46px;
 	display: block;
 	margin-bottom: 7px;
-	background: #ddd url("gfx/back-to-top.png") no-repeat center center;
+	background: #ddd url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/back-to-top.png") no-repeat center center;
 	/* rounded corners */
 	-webkit-border-radius: 8px;
 	-moz-border-radius: 8px;
@@ -1067,7 +1183,7 @@ a.m-click-phone span, a.m-click-mail span, a.m-click-map span {
 	overflow:hidden;
 	text-align:center;
 	margin:0 auto;
-	background-image: url("gfx/mobile-panel-icons.png");
+	background-image: url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/mobile-panel-icons.png");
 	background-repeat:no-repeat;
 	display:block;
 	padding:0px;
@@ -1141,6 +1257,7 @@ a.websplanet {
 .ui-widget-content a {
 	/* match <a> color */
 }
+
 .ui-accordion-content { /* with padding-top at 0px, there is a space under accoridon button without a background color; requires !important */
 	padding-top: 7px !important;
 }
@@ -1149,9 +1266,9 @@ a.websplanet {
 
 /* to match google map links */
 .bing-maps div a {
-	font-size: 13px; /*match a, a:visited { styling } */
-	line-height: 16px;
-	margin-bottom: 21px;
+	font-size: 12px; /*match a, a:visited { styling } */
+	line-height: 18px;
+	margin-bottom: 18px;
 	display: inline-block;
 }
 
@@ -1161,8 +1278,8 @@ iframe#Guesbook_csiframe {
 }
 /* YP reviews styling */
 div.reviewBody {
-	font-size: 13px;  /* match paragraph styling */
-	line-height: 16px;
+	font-size: 12px;  /* match paragraph styling */
+	line-height: 18px;
 }
 div.reviewMeta,
 div.reviewBody {
@@ -1188,8 +1305,8 @@ div[type=rss_widget] ul { /* remove indent; requires !important */
 }
 /* payment types text */
 .PaymentMethod_widget .checkboxPaymentMethod p { /* match paragraph styling */
-	font-size: 13px;
-	line-height: 16px;
+	font-size: 12px;
+	line-height: 18px;
 }
 
 
@@ -1210,9 +1327,13 @@ div.diy-f-tabs {
 label {
 	    margin-top: 0 !important; /* forms manager sets to 12px */
 	    line-height: 16px !important; /* forms manager sets to 25px */
+	    padding-bottom: 0 !important; /* defaut is 5px */
 }
 .form-manager li { /* spaces form feilds better, chunks items together */
 	margin-bottom: 12px !important;
+}
+.contact-us li {
+    margin-bottom: 7px !important;
 }
 .name-field { /* unifies width to other form elements */
 	width: 48% !important; /* default is 49% */
@@ -1232,7 +1353,7 @@ div.unit-results ul li input { /* fix width */
 
 /* ----- websplanet widget fixes (3-13-13) ----- */
 div.opening-hours-comments {
-	font-size: 13px; /* match paragraph style */
+	font-size: 12px; /* match paragraph style */
 	line-height: 18px;
 }
 div.diy-f-spot {
@@ -1246,3 +1367,290 @@ div.facebook-like-box iframe {
 }
 
 /* --------------- end Websplanet widget fixes --------------- */
+
+/* ----- Events Page fixes ----- */
+
+.Events_item_title a {
+	font: 21px/24px "Cenury Gothic", Verdana, Geneva, sans-serif; /* put emphasis on event title */
+}
+.Events_item_date { /* aligns date to baseline of title */
+	padding-top: 6px;
+}
+div#Events_full_item { /* aligns event detail content to gird (nav first nav item text) */
+    padding: 0 15px;
+}
+
+/* ----- FAQs Page Fixes ----- */
+div.module-body ul {
+    margin: 0;
+    padding: 0 0 10px !important;
+}
+
+#FAQ_category_list li a {
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-raidus: 10px;
+	padding: 8px 0px;
+	border: 3px solid #F74C5B;
+	background-image: url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/submitBG.jpg");
+	cursor: pointer;
+	color: #fff;
+	font: 24px/24px "Century Gothic", Verdana, Geneva, sans-serif;
+	text-align: center;
+}
+#FAQ_category_list li a:hover {
+	background-image: url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/submitBG.jpg");
+	box-shadow: 0 0 25px rgba(0, 0, 0, 0.5) inset;	
+}
+ul#FAQ_category_list span {
+    margin: 0 12px 24px;
+}
+
+/* ----- Jobs Page Fixes ----- */
+
+li.jobs-single-item h4 {
+    background: none repeat scroll 0 0 transparent !important;
+    border: medium none;
+    padding-left: 0;
+    margin-bottom: 0px;
+}
+li.jobs-single-item h4 span, li.jobs-single-item h4 a {
+    font: 21px/21px "Century Gothic",Verdana,Geneva,sans-serif !important;
+    margin-bottom: 0 !important;
+}
+#jobs-module span {
+    text-indent: 0 !important;
+}
+div.jobs-apply a {
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-raidus: 10px;
+	padding: 8px 48px;
+	border: 3px solid #F74C5B;
+	background-image: url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/submitBG.jpg");
+	cursor: pointer;
+	color: #fff;
+	font: 12px/12px "Century Gothic", Verdana, Geneva, sans-serif;
+	text-align: center;
+}
+div.jobs-apply a:hover {
+	background-image: url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/submitBG.jpg");
+	box-shadow: 0 0 25px rgba(0, 0, 0, 0.5) inset;	
+}
+h4.jobs-title,h4.jobs-title:hover {
+    background: none;
+    border: none;
+    margin-bottom: 12px;
+    padding-left: 0;
+}
+h4.jobs-title, h4.jobs-title span {
+    font: 21px/21px "Century Gothic",Verdana,Geneva,sans-serif !important;
+    color: #F74C5B;
+}
+form div#formsmanager-wrapper input[type="text"], form div#formsmanager-wrapper input[type="file"] {
+    clear: left;
+    display: block;
+    margin-bottom: 0;
+}
+
+
+
+/* ---------- Framework additions ---------- */
+.astrix {
+	color: #F74C5B;
+}
+input[type="file"] {
+
+}
+
+/* post update changes (3/19/2013) */
+.opening-hours-day { 
+    width: auto; /* avoid line breaking */
+    font-weight: bold !important; /* creates hierarchy */
+}
+div.opening-hour-row span {
+    font: 12px/18px Verdana; /* match paragraph styling */
+}
+.form_manager_left_column {
+    width: 100%; /* if (single column form) { set to 100%; } else if (double column form) { set to 50%; } */
+}
+@media screen and (max-width: 767px) and (min-width: 480px) {
+	div.calories-calc div.calc-input-container input, div.calories-calc div.calc-input-container select {
+		width: 96% !important;
+	}
+}
+hr {
+	display: block;
+	width: 100%;
+/*	margin-bottom: 0px !important; websplanet adds <br> after hr... */
+	background-image: url("/templates/bubbles/templates_YPwebsites/styles/m_6/6c/6c9/250/gfx/hrBG.png");
+	background-position: left center;
+	background-repeat: repeat-x;
+	height: 8px !important;
+	border: none;
+}
+div.ui-accordion-content div.rss ul {
+	padding: 0 !important;
+}
+
+
+/* send to phone form */
+.click2sms-popup-wrapper .click2sms-popup-buttons #click2sms-popup-send, .click2sms-popup-wrapper .click2sms-popup-buttons #click2sms-popup-cancel {
+  background: linear-gradient(to bottom, #F3F2F2 38%, #FFFFFF 81%, #FFFFFF 100%) repeat scroll 0 0 transparent !important;
+  border-color: #CCCCCC #CCCCCC #999999 !important;
+  border-image: none !important;
+  border-style: solid !important;
+  border-width: 1px !important;
+  color: #777777 !important;
+  cursor: pointer !important;
+  padding: 5px !important;
+  font-family:Arial, Helvetica, sans-serif !important;
+  font-family: arial !important;
+  font-size: 14px !important;
+  border-radius: 0px !important;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.5) inset !important;
+}
+
+.click2sms-popup-wrapper .click2sms-popup-buttons #click2sms-popup-send:hover, .click2sms-popup-wrapper .click2sms-popup-buttons #click2sms-popup-cancel:hover {
+  background: linear-gradient(to bottom, #FFFFFF 0%, #FFFFFF 19%, #F3F2F2 62%) repeat scroll 0 0 transparent !important;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.5) inset !important;
+}
+
+.callout123 {
+	opacity: .5 !important;
+}
+
+div.diy-f-spot {
+	margin: 7px !important;
+	float: none !important;
+}
+/* Calculators */
+div.calc-input-container input[type=text] { /* remove styled margin-bottom, it pushes sub-labels down */
+	margin-bottom: 0 !important;
+}
+div.calc-input-container {
+	margin-bottom: 12px !important; /* add margin-bottom from child input */
+}
+div.unit-results ul li input { /* fix width */
+	width: 97%;
+}	
+
+li.calc-param-row label {
+  padding: 0 0 5px;
+}
+
+li.calc-param-row, li.calc-instruction-row, li.calc-resault-row 
+  {height:auto !important; margin-bottom:5px;}
+
+li.calc-param-row div.calc-input-container, li.calc-resault-row div.calc-input-container {
+  clear: left;
+  float: left;
+}
+
+
+.calculator-btn {float:left;}
+
+/* weight calculator */
+
+div.calories-calc div.calc-input-container span.small {display:none;}
+
+div.calc-input-container #weight_kg, div.calc-input-container #cen {display:none;}
+
+div.calc-input-container span.or {display:none !important;}
+
+div.calories-calc div.calc-input-container input[type="radio"] {
+  border: 0px solid #AACFE4;
+
+}
+
+/* conversion calculator */
+
+div.unit-calc li.unit-menu ul.unit-type {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+div.unit-calc li.unit-menu ul.unit-type li {
+  clear: none !important;
+  display: block;
+  float: left; 
+  text-align: center;
+  font-size: 10px;
+  width:auto !important;
+}
+
+div.unit-calc li.unit-menu ul.unit-type li a {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background-color: #E6E6E6;
+  background-image: linear-gradient(#FFFFFF, #FFFFFF 25%, #E6E6E6);
+  background-repeat: no-repeat;
+  border-color: #CCCCCC #CCCCCC #BBBBBB;
+  border-image: none;
+  border-radius: 4px 4px 4px 4px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 5px 8px;
+  transition: all 0.1s linear 0s;
+  display: inline;
+  margin: 2px 5px;
+  text-decoration:none;
+  color: #333333;
+  line-height: normal;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+} 
+
+div.unit-calc li.unit-menu ul.unit-type li a.active, div.unit-calc li.unit-menu ul.unit-type li a:hover {
+	 background-image: linear-gradient(#d7d7d7, #d7d7d7 25%, #c7c7c7 );
+	 color:#000;
+	 text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.75);
+     text-decoration:none;
+	}
+
+/* results */
+ li.calc-resault-row label {
+  padding: 5px 0;
+  width:100% !important;
+}
+
+/* clock fix*/
+.big-clock {
+  font-size: 30px !important;
+}
+
+ div.horizontal.callouts div.vertical div.diy-f-spot.callout1 div.diy-f-spot-inner div.widget-wrapper,
+ div.horizontal.callouts div.vertical div.diy-f-spot.callout2 div.diy-f-spot-inner div.widget-wrapper {
+	 width:45% !important;
+	 float:left !important;
+	 margin-right: 0 !important;
+	 }	
+	 
+@media screen and (max-width: 767px) {
+	div.horizontal.callouts div.vertical div.diy-f-spot.callout1 div.diy-f-spot-inner div.widget-wrapper,
+	div.horizontal.callouts div.vertical div.diy-f-spot.callout2 div.diy-f-spot-inner div.widget-wrapper {
+		width:auto !important;
+		float:left !important;
+	}
+	
+}
+
+ul.PaymentMethod_widget  label {display:none;}
+
+.ypreviews {margin-bottom:30px;}
+
+
+.PaymentMethod_widget .checkboxPaymentMethod span {
+	height: 40px;
+	width: 62px;
+}
+li.checkboxPaymentMethod {
+	margin: 0px !important;
+	width: 62px !important;
+}
